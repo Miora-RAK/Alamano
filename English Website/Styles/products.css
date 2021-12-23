@@ -1,0 +1,66 @@
+
+.titleSection{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.products{
+    /*  display :flex;
+    padding: 2em;
+    margin:0 auto;
+    justify-content: space-evenly;
+    width:100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 1300px;
+    min-width: 300px;
+    margin: 0 auto 2em;
+    
+
+}
+
+.productsImage{
+    width: 10%;
+    height: auto;
+   
+  
+    
+}
+.product{
+    
+    
+}
+
+.products-rightPart{
+    margin-left: 5em;
+    flex: 3;
+
+}
+.products-rightPart p{
+    margin-bottom:0.5em;
+}
+
+.lamaTitle{
+    margin-bottom: 1em;
+}
+.products-rightPart span{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.commentsAndOpinion{
+    text-align: center;
+   
+}
+.cardComment img{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.name{
+    font-weight: 700;
+}

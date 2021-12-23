@@ -1,0 +1,142 @@
+/* ------ Home effect ------- */
+
+.home {
+    height: 45em;
+    display: flex;
+    overflow: hidden;
+}
+
+.left-part-home {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background: black;
+    box-shadow: 90px 0 100px 100px black;
+}
+
+h1{
+    color: #f1f1f1;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 90px;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    margin-left: 8vw; 
+    white-space: nowrap;
+}
+
+.home p {
+    color:#f1f1f1;
+    font-size: 30px;
+    text-align: justify;
+    width: 20em;
+    margin-left: 8vw;
+    line-height: 1.3;
+}
+
+.cont-btn-home {
+    display: flex;
+}
+
+.btn-home {
+    font-size: 18px;
+    text-align: center;
+    color: #f1f1f1;
+    padding: 0.8em;
+    border-radius: 5px;
+    margin-top: 3em;
+    border: 1px solid #f1f1f1;
+    width: 8em;
+    cursor: pointer;
+}
+
+.btn-home:hover {
+    transition: all 0.2s ease-in-out;
+    color: black;
+    background: #f1f1f1;
+}
+
+.b1 {
+    margin-left: 8vw;
+}
+.b2 {
+    margin-left: 10px;
+}
+
+.right-part-home {
+    background-image: url(ressources/lama.jpg);
+    width: 60%;
+    height: 100%;
+    background-position: 70% 10% ;
+}
+
+/* ------ Home effect : Medias queries ------- */
+
+/* Computer size  */
+
+@media screen and (max-width: 1350px) {
+    .left-part-home {
+        width: 60%;
+    }
+    .right-part-home {
+        background-position: 72% 10% ;
+    }
+}
+
+/* Tablet size  */
+
+@media screen and (max-width: 750px) {
+    .home {
+        height: 35em;
+    }
+    h1 {
+        font-size: 50px;
+        padding-top: 3em;
+    }
+    .home p {
+        font-size: 25px;
+        margin-bottom: 0.5em;
+    }
+    .btn-home {
+        font-size: 18px;
+        padding: 0.5em;
+        margin-top: 2em;
+    }
+
+    .left-part-home {
+        width: 50%;
+    }
+}
+
+/* Telephone size  */
+
+@media screen and (max-width: 550px) {
+    .home {
+        height: 30em;
+    } 
+    h1 {
+        font-size: 40px;
+        padding-top: 3em;
+        margin-left: 2vw;
+    }
+    .home p {
+        font-size: 20px;
+        margin-left: 2vw;
+        margin-bottom: 0.4em;
+    }
+
+    .btn-home {
+        padding: 0.2em;
+    }
+    .b1 {
+        margin-left: 2vw;
+    }
+    .b2 {
+        margin-left: 0.5em;
+    }
+
+    .left-part-home {
+        box-shadow: 20px 0 100px 100px black;
+        width: 40%;
+    }
+
+}

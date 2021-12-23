@@ -1,0 +1,96 @@
+/* ------ Infos section ------- */
+
+.title-info-section {
+    color: black;
+    text-align: center;
+    font-size: 65px;
+    padding: 1em 2em 1em;
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.info-card {
+    width: 25em;
+    height: auto;
+    margin: 0 2em 8em;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 100;
+}
+
+.container-info-photo img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.info-card h2 {
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 5px;
+}
+
+.info-card p {
+    color: #333;
+    text-align: center;
+    font-size: 23px;
+    padding: 0 5px 15px;
+}
+
+.infos-deco {
+    position: absolute;
+    z-index: -1;
+    top: -70px;
+    left: 100px;
+}
+
+/* ------ Infos section : Medias queries ------- */
+
+@media screen and (max-width: 1400px) {
+    .infos-deco {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .title-info-section {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .title-info-section {
+        font-size: 32px;
+        padding: 40px 20px 40px;
+    }
+    .info-card {
+        margin: 0 10px 45px;
+    }
+}
+
+/* STORYTELLING */
+
+.storytelling{
+    margin-bottom: 60px;
+    max-width: 80%;
+    text-align: justify;
+}
+
+.storytelling-title{
+    text-align: left;
+    font-size: 25px;
+    
+}
+.storytelling-text{
+    margin-left: 80px;
+    margin-top: 10px;
+}
